@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: lavender;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.key{
+    padding: 50px;
+    border: 2px solid none;
+    background-color: #fff;
+    margin: 5px auto;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 5px 8px 8px #5a5353;
+    transition: all 0.1s;
+}
+
+.key-animation{
+    transform: scale(1.5);
+    box-shadow:5px 8px 8px #5a5353;
+    border: 2px solid #fff; 
+}
